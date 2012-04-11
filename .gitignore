@@ -1,0 +1,4 @@
+*.swp
+client_session_key.aes
+state/
+dist/
