@@ -1,7 +1,6 @@
 -- | Simple web app showing the fib numbers. Store results in acid state,
 -- dispatches uses combinators, and renders HTML via Heist.
-{-# LANGUAGE QuasiQuotes, OverloadedStrings, TemplateHaskell,
-             DeriveDataTypeable, TypeFamilies #-}
+{-# LANGUAGE OverloadedStrings #-}
 import Yesod.Combinator
 import Yesod.Heist
 import qualified Data.Text as T
